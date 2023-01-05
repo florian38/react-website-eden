@@ -35,7 +35,7 @@ export default function Accordeon({site}) {
     const [tabImg, setTab] = useState(eden)
 
     useEffect(() => {
-        if(site == 'eden'){
+        if(site === 'eden'){
             setTab(eden)
         } else {
             setTab(hutte)

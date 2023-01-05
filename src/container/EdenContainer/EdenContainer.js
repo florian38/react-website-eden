@@ -12,7 +12,6 @@ import arbre3 from '../../assets/background/pommier3.png'
 import './EdenContainer.css'
 
 
-
 import Wrapper from '../../component/Wrapper/Wrapper'
 
 export default function EdenContainer() {
@@ -23,9 +22,9 @@ export default function EdenContainer() {
 
         <Title title="L'Eden"/>
 
-        <img className='imgEden' src={arbre}/>
-        <img className='imgEden2' src={arbre2}/>
-        <img className='imgEden3' src={arbre3}/>
+        <img className='imgEden' src={arbre} alt='fondEcran1'/>
+        <img className='imgEden2' src={arbre2} alt='fondEcran1'/>
+        <img className='imgEden3' src={arbre3} alt='fondEcran1'/>
 
         <Accordeon className='test' site='eden'/>
         <SliderMobile site='eden'></SliderMobile>

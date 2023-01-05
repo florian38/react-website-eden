@@ -8,7 +8,7 @@ export default function Button(props) {
     const [title, setTitle] = useState("")
 
     useEffect(() => {
-        if(props.site == 'eden'){
+        if(props.site === 'eden'){
             setTitle('resEden')
         } 
         if(props.site == 'hutte'){

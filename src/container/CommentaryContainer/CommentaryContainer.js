@@ -38,14 +38,14 @@ export default function CommentaryContainer() {
       <Slider { ...settings } className='slideReview'>
 
           <div className="commentaryAirbnb">
-            <img className='logo' src={logoAirbnb}></img>
-            <img className='logo' src={etoile}></img>
+            <img className='logo' src={logoAirbnb} alt='logoAirbnb'></img>
+            <img className='logo' src={etoile} alt='logoEtoile'></img>
             <ReviewAirbnb></ReviewAirbnb>
           </div>
 
           <div className="commentaryGoogle">
-            <img className='logo' src={logoGoogle}></img>
-            <img className='logo' src={etoile}></img>
+            <img className='logo' src={logoGoogle} alt='logoGoogle'></img>
+            <img className='logo' src={etoile} alt='logoEtoile'></img>
             <ReviewGoogle></ReviewGoogle>
           </div>
 
