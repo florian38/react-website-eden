@@ -9,15 +9,15 @@ export default function FooterContainer() {
   return (
     <div className="footer" id='footer'>
         <div className="row">
-            <a><AiFillFacebook className='iconFooter' size={30}/></a>
-            <a><FiInstagram className='iconFooter' size={30}/></a>
+            <a href='#'><AiFillFacebook className='iconFooter' size={30}/></a>
+            <a href='#'><FiInstagram className='iconFooter' size={30}/></a>
         </div>
 
         <div className="row">
             <ul>
                 <li>06 67 92 42 77</li>
                 <li>Bitcoin accepté</li>
-                <li><a>Télécharger le réglement</a></li>
+                <li><a href='#'>Télécharger le réglement</a></li>
             </ul>
         </div>
 

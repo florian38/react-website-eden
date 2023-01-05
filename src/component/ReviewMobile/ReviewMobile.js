@@ -64,15 +64,15 @@ export default function ReviewMobile() {
                             imgs = user
                         }
                     
-                    return  <SwiperSlide key={index}>
+                    return  (<SwiperSlide key={index}>
                                 <div className="cardMobile">
                                     <div className="cardHeaderMobile">
-                                        <img className="avatarMobile" src={imgs}></img>
+                                        <img className="avatarMobile" src={imgs} alt='avatar'></img>
                                         <h3 className="titleCardMobile">{item.name}</h3>
                                     </div>
                                     <div className="cardTxtMobile">{item.comment.length > 200 ? ' " ' + item.comment.substring(0, 200) + '... "' : ' " ' + item.comment + ' " '}</div>
                                 </div>
-                            </SwiperSlide>
+                            </SwiperSlide>)
                 }})}
                 </Swiper>                           
             </div>

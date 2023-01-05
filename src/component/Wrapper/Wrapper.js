@@ -28,13 +28,14 @@ export default function Wrapper(props) {
 
 
     useEffect(() => {
-        if(props.site == 'eden'){
+        if(props.site === 'eden'){
             setTitle(eden)
         }
 
         if(props.site == 'hutte'){
             setTitle(hutte)
         }  
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
   return (

@@ -1,6 +1,6 @@
 
 import React, {useState} from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import Hamburger from 'hamburger-react'
 

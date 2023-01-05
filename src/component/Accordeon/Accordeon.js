@@ -40,6 +40,7 @@ export default function Accordeon({site}) {
         } else {
             setTab(hutte)
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (

@@ -52,13 +52,13 @@ export default function ReviewAirbnb() {
                   if(imgs == null){
                     imgs = user
                   }
-                  return <div className="card" key={index}>
+                  return  (<div className="card" key={index}>
                             <div className="cardHeader">
-                              <img className="avatar" src={imgs}></img>
+                              <img className="avatar" src={imgs} alt='avatar'></img>
                               <h3 className="titleCard">{item.name}</h3>
                             </div>
                             <div className="cardTxt">{item.comment.length > 200 ? ' " ' + item.comment.substring(0, 200) + '... "' : ' " ' + item.comment + ' " '}</div>
-                          </div>
+                          </div>)
                 }})}
                                             
             </div>}

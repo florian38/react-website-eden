@@ -11,9 +11,10 @@ export default function Button(props) {
         if(props.site === 'eden'){
             setTitle('resEden')
         } 
-        if(props.site == 'hutte'){
+        if(props.site === 'hutte'){
             setTitle('resHutte')
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
   return (

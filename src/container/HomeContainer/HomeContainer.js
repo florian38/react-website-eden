@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Slider from '../../component/Slider/Slider'
 
 import './HomeContainer.css'

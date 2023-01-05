@@ -11,7 +11,7 @@ export default function ReviewGoogle() {
   const [loading, setLoading] = useState(false);
  
   useEffect(() => {
-      const url = "https://simplescraper.io/api/2xQEEIEjyrtiySVKnhlw?apikey=gtkq5Tciju8tGxMESKl2nBjKZeSQGA0J&limit=100";
+      //const url = "https://simplescraper.io/api/2xQEEIEjyrtiySVKnhlw?apikey=gtkq5Tciju8tGxMESKl2nBjKZeSQGA0J&limit=100";
 
       /*const fetchData = async () => {
           try {
@@ -50,13 +50,13 @@ export default function ReviewGoogle() {
               if(imgs == null){
                 imgs = user
               }
-                  return <div className="card" key={index}>
+                  return (<div className="card" key={index}>
                             <div className="cardHeader">
-                              <img className="avatar" src={imgs}></img>
+                              <img className="avatar" src={imgs} alt='avatar'></img>
                               <h3 className="titleCard">{item.user.name}</h3>
                             </div>
                             <div className="cardTxt">{item.snippet.length > 200 ? ' " ' + item.snippet.substring(0, 200) + '... "' : ' " ' + item.snippet + ' " '}</div>
-                          </div>
+                          </div>)
                 })}
                                             
             </div>}

@@ -8,6 +8,7 @@ export default function Title(props) {
 
     useEffect(() => {
         setTitle(props.title)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
  

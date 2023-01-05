@@ -13,8 +13,8 @@ export default function Slider() {
   const [sliderReady, setSliderReady] = useState(true)
 
   let IMAGE_PARTS = 4;
-  let changeTO = null;
-  let AUTOCHANGE_TIME = 4000;
+  //let changeTO = null;
+  //let AUTOCHANGE_TIME = 4000;
   let className = 'slider__slide'
 
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function Slider() {
   return (
     <div className='divSlider'>
       <div className={sliderReady ? "slider s--ready" : "slide"}>
-      <img className='logoHome' src={logo}></img>
+      <img className='logoHome' src={logo} alt='logo'></img>
         <div className='slider__slides'>
           {slide.map((slide, index) => {
                   let test = ''

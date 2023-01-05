@@ -40,7 +40,7 @@ export default function SliderMobile(props) {
     const [tabImg, setTab] = useState(eden)
 
     useEffect(() => {
-        if(props.site == 'eden'){
+        if(props.site === 'eden'){
             setTab(eden)
         } else {
             setTab(hutte)
@@ -58,35 +58,35 @@ export default function SliderMobile(props) {
       <SwiperSlide>
         <div className='slideMobile'>
           <h2 className='titleSlideMobile'>{tabImg[0].title}</h2>
-          <img className='imgMobile' src={tabImg[0].img}></img>
+          <img className='imgMobile' src={tabImg[0].img} alt='imgMobile'></img>
         </div>
       </SwiperSlide>
 
       <SwiperSlide>
         <div className='slideMobile'>
           <h2 className='titleSlideMobile'>{tabImg[1].title}</h2>
-          <img className='imgMobile' src={tabImg[1].img}></img>
+          <img className='imgMobile' src={tabImg[1].img} alt='imgMobile'></img>
         </div>
       </SwiperSlide>
 
       <SwiperSlide>
         <div className='slideMobile'>
           <h2 className='titleSlideMobile'>{tabImg[2].title}</h2>
-          <img className='imgMobile' src={tabImg[2].img}></img>
+          <img className='imgMobile' src={tabImg[2].img} alt='imgMobile'></img>
         </div>
       </SwiperSlide>
 
       <SwiperSlide>
         <div className='slideMobile'>
           <h2 className='titleSlideMobile'>{tabImg[3].title}</h2>
-          <img className='imgMobile' src={tabImg[3].img}></img>
+          <img className='imgMobile' src={tabImg[3].img} alt='imgMobile'></img>
         </div>
       </SwiperSlide>
 
       <SwiperSlide>
         <div className='slideMobile'>
           <h2 className='titleSlideMobile'>{tabImg[4].title}</h2>
-          <img className='imgMobile' src={tabImg[4].img}></img>
+          <img className='imgMobile' src={tabImg[4].img} alt='imgMobile'></img>
         </div>
       </SwiperSlide>
 
