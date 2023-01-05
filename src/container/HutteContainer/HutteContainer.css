@@ -1,0 +1,52 @@
+
+.hutteSection{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    overflow-x: hidden;
+    background-image: linear-gradient(to right top, #0a1926, #002937, #003942, #004a43, #0a593c);
+    position: relative; 
+    font-size: 16px;
+}
+
+.containerHutte{
+    margin: 50px;
+    width: calc(100% - 50px);
+}
+   
+.imgHutte {
+    position: absolute;
+    height:15vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.imgHutte1 {
+    position: absolute;
+    height:30vw;
+    top: 10%;
+    right: 0;
+    z-index: 0;
+}
+
+@media (max-width: 1000px) {
+    .hutteSection {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .hutteSection {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .hutteSection {
+        font-size: 12px;
+    }
+    
+}

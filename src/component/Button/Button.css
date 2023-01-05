@@ -1,0 +1,74 @@
+.button{
+    margin: 2.5em 6.25em;
+    text-align: end;
+}
+
+.descriptifButton{
+    font-size: 1em;
+    font-family: 'Courgette';
+    margin-top: 5px;
+}
+
+.resEden{
+    height: 2.5em;
+    width: 10em;
+    border-radius: 10px;
+    border: none;
+    background-color: hsla(42, 55%, 59%, 1);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color : black;
+    letter-spacing: 2px;
+    cursor: pointer;
+    z-index: 0;
+}
+
+
+.resEden:hover{
+    background-image: linear-gradient(
+        45deg,
+        hsl(237deg 80% 62%) 0%,
+        hsl(237deg 74% 60%) 11%,
+        hsl(237deg 69% 58%) 22%,
+        hsl(237deg 64% 56%) 33%,
+        hsl(237deg 60% 54%) 44%,
+        hsl(237deg 56% 53%) 56%,
+        hsl(237deg 53% 51%) 67%,
+        hsl(237deg 51% 49%) 78%,
+        hsl(237deg 52% 47%) 89%,
+        hsl(237deg 52% 46%) 100%
+    );
+    color: hsla(42, 55%, 59%, 1);
+    border: 1px solid hsla(42, 55%, 59%, 1);
+}
+
+.resHutte{
+    height: 2.5em;
+    width: 10em;
+    border-radius: 10px;
+    border: none;
+    background-color: hsla(42, 55%, 59%, 1);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color : black;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.resHutte:hover{
+    background-color: #004a43;
+    color: hsla(42, 55%, 59%, 1);
+    border: 1px solid hsla(42, 55%, 59%, 1);
+}
+
+
+@media (max-width: 750px) {
+    .button {
+        text-align: center;
+    }
+
+}

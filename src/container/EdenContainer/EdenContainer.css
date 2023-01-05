@@ -1,0 +1,81 @@
+.edenSection{
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+    overflow: hidden;
+    /*background-image: linear-gradient(to right top, #4a280d, #663a17, #824d20, #a0602a, #bf7534);*/
+    /*background-image: linear-gradient(to right top, #5e35f2, #7538dd, #813dc9, #8843b7, #8a4ba6);*/
+    /*background-image: linear-gradient(to right top, #461dff, #5524fe, #622afd, #6c30fd, #7636fc);*/
+    /*background-image: linear-gradient(to right top, #030a8c, #150fa8, #2614c4, #3619e1, #461dff);*/
+    /*background-image: linear-gradient(to right top, #9a6ad8, #915de1, #8551ea, #7644f3, #6137fd);*/
+    /*background-image: linear-gradient(to right top, #4019fe, #3f1ae1, #3d1ac6, #391aaa, #351990);*/
+    background-image: linear-gradient(
+        45deg,
+        hsl(237deg 80% 62%) 0%,
+        hsl(237deg 74% 60%) 11%,
+        hsl(237deg 69% 58%) 22%,
+        hsl(237deg 64% 56%) 33%,
+        hsl(237deg 60% 54%) 44%,
+        hsl(237deg 56% 53%) 56%,
+        hsl(237deg 53% 51%) 67%,
+        hsl(237deg 51% 49%) 78%,
+        hsl(237deg 52% 47%) 89%,
+        hsl(237deg 52% 46%) 100%
+    );
+
+    font-size: 16px;
+    
+}
+
+.containerEden{
+    margin: 50px;
+    width: calc(100% - 50px);
+}   
+
+.imgEden{
+    position: absolute;
+    height:13vw;
+    top: 0;
+    left: 0;
+}
+
+.imgEden2{
+    position: absolute;
+    height: 5vw;
+    top: 0%;
+    right: 0;
+}
+
+.imgEden3{
+    position: absolute;
+    height: 10vw;
+    bottom: 0%;
+    right: 0;
+}
+
+
+@media (max-width: 1000px) {
+    .edenSection {
+        font-size: 10px;
+    }
+
+    .imgEden2{
+        bottom: 30%;
+    }  
+}
+
+@media (max-width: 1100px) {
+    .edenSection {
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .edenSection {
+        font-size: 12px;
+    }
+    
+}
+

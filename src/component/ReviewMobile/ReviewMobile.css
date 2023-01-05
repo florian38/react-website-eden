@@ -1,0 +1,45 @@
+.cardMobile {
+    height: auto;
+    width: auto;
+    background-color: #004a43;
+    border-radius: 10px;
+    box-shadow: -2px -2px 2px -1px hsla(42, 55%, 59%, 1);
+    -webkit-box-shadow: -2px -2px 2px -1px hsla(42, 55%, 59%, 1);
+    -moz-box-shadow: -2px -2px 2px -1px hsla(42, 55%, 59%, 1);
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+  
+.titleCardMobile {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    color: hsla(42, 55%, 59%, 1);
+    font-weight: 300;
+    margin: auto 10px;
+}
+
+.cardHeaderMobile{
+    display: flex;
+}
+
+.cardHeaderMobile img{
+    display: block;
+}
+
+.avatarMobile{
+   height: 60px;
+   border-radius: 50px;
+   margin: 10px;
+}
+  
+.cardTxtMobile{
+    display: block;
+    height: 10em;
+    width: calc(100% - 50px);
+    margin: 10px auto;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: hsla(42, 55%, 59%, 1)
+}

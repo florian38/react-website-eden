@@ -1,0 +1,63 @@
+.navBar{
+    display: flex;
+    position: fixed;
+    right: 3%;
+    top: 5%;
+    z-index: 12;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.linkBar {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.linkBar li{
+    list-style: none;
+    margin: 0 10px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: 600ms ;
+    cursor: pointer;
+}
+
+.linkBar a{
+    text-decoration: none;
+    padding: 10px 40px ;
+    font-size: 1em;
+    color : hsla(42, 55%, 59%, 1);
+    font-weight: 500;
+    display: block;
+    height: fit-content;
+}
+
+.linkBar li:hover{
+    background: hsla(42, 55%, 59%, 1);
+}
+
+.linkBar li:hover a{
+    color: black;
+}
+
+
+@media (max-width: 850px) {
+    
+    .navBar{
+        align-items: flex-start;
+    }
+
+    .linkBar{
+        padding: 0.5em;
+        height: auto;
+        width: auto;
+        display: block;
+        background-color: rgb(20, 20, 20);
+    }
+}
+

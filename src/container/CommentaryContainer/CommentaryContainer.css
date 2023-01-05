@@ -1,0 +1,75 @@
+.commentarySection{
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+    /*background-image: linear-gradient(to right top, #d49c8b, #d69d88, #d79d85, #d89e81, #d99f7e);*/
+    /*background-image: linear-gradient(to right top, #b56949, #bb714c, #c07a4f, #c58252, #ca8b56);*/
+    /*background-image: linear-gradient(to right top, #b56624, #ba6f31, #c0793d, #c5824a, #ca8b56);*/
+    background-image: linear-gradient(to right top, #b56624, #b6672e, #b66836, #b6693e, #b66a46);
+}
+
+.commentaryContainer{
+    margin: 50px;
+    width: calc(100% - 50px);
+
+}
+
+.commentaryContainer > div{
+    display: block;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.carousel-item{
+    display: block;
+    margin: 0 auto;
+}
+
+.commentarySection .logo{
+    height: 70px;
+    margin: 20px;
+}
+
+
+.imgAvis{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 15vw;
+}
+
+.commentaryContainer .wrapper {
+    display: flex;
+}
+
+.commentaryContainer .reviewMobile{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+
+    .commentarySection {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .slideReview > div{
+        display: none;
+    }
+
+    #review > div > div.slideReview > ul{
+        display: none!important;
+    }
+
+    .commentaryContainer .reviewMobile{
+        display: block;
+    }
+
+    .infoReviewMobile {
+        font-family: 'Courgette';
+    }
+
+}

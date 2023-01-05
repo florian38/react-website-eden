@@ -1,0 +1,56 @@
+.home{
+    position: relative;
+}
+
+.messageHome{
+    position: absolute;
+    bottom: 5%;
+    z-index: 12;
+    left: 5%;
+    color: hsla(42, 55%, 59%, 1);
+    font-family: 'Courgette', sans-serif;
+    font-size: 1.3em;
+}
+
+.scroll-downs {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin: auto;
+    z-index: 50;
+}
+  
+.mousey {
+    width: 0.1vw;
+    padding: 10px 15px;
+    height: 3vh;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+  
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: rgba(255, 255, 255, 0.4);
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+}
+
+@media (max-width: 1000px) {
+    .home {
+        font-size: 10px;
+    }
+    
+}
