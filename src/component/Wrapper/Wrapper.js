@@ -44,6 +44,7 @@ export default function Wrapper(props) {
 
         <div className='descriptif'>{title[0]}</div>
 
+        <div className='divIcon'>
             <div className="icon">
             <AiFillHome className='reactIcon' size={20}></AiFillHome>
             <div className='textIcon'>{title[1]}</div>     
@@ -62,8 +63,8 @@ export default function Wrapper(props) {
             <div className="icon">
             <GiHomeGarage className='reactIcon' size={20}></GiHomeGarage>
             <div className='textIcon'>{title[4]}</div>     
+            </div>
         </div>
-
     </div>
   )
 }

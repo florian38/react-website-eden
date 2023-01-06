@@ -14,8 +14,8 @@ import useScrollSnap from "react-use-scroll-snap";
 function App() {
 
   const [isLoading, setIsLoading] = useState(true);
-  const scrollRef = useRef(null);
-  useScrollSnap({ ref: scrollRef, duration: 50, delay: 0 });
+  /*const scrollRef = useRef(null);
+  useScrollSnap({ ref: scrollRef, duration: 50, delay: 0 });*/
 
   useEffect(() => {
     setIsLoading(true);
@@ -25,7 +25,7 @@ function App() {
   }, []);
   
   return (
-    <div className='App' ref={scrollRef}>
+    <div className='App'>
         {isLoading ? (<LoaderContainer/>) :
             (<>
               <NavMenu/>

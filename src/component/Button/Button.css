@@ -12,7 +12,6 @@
 .resEden{
     height: 2.5em;
     width: 10em;
-    border-radius: 10px;
     border: none;
     background-color: hsla(42, 55%, 59%, 1);
     text-transform: uppercase;
@@ -47,7 +46,6 @@
 .resHutte{
     height: 2.5em;
     width: 10em;
-    border-radius: 10px;
     border: none;
     background-color: hsla(42, 55%, 59%, 1);
     text-transform: uppercase;

@@ -54,3 +54,10 @@
     }
     
 }
+
+@media (max-width: 500px) {
+    .scroll-downs {
+        display: none;
+    }
+    
+}
